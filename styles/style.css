@@ -189,7 +189,6 @@
   display: grid;
   grid-template-columns: 34% 66%;
   margin: 0 20px;
-  margin-bottom: -50px;
   padding-block-start: 80px;
   padding-block-end: 130px;
 }
