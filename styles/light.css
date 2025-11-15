@@ -15,6 +15,7 @@
   --title-color: #ffc2e6;
   --hed-text-color: #353430;
   --text-color: #353430;
+  --bg-color: #fff1f7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -25,6 +26,7 @@
     --title-color: #ffc2e6;
     --hed-text-color: #353430;
     --text-color: #353430;
+    --bg-color: #fff1f7;
   }
 }
 

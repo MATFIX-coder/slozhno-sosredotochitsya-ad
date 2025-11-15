@@ -17,6 +17,7 @@
   --title-color: #db00ff;
   --hed-text-color: #000028;
   --text-color: #f1b2ce;
+  --bg-color: #000028;
 }
 
 .theme-dark .header__theme-menu-button:hover {
