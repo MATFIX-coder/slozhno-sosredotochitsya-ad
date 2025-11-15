@@ -190,6 +190,8 @@
   grid-template-columns: 34% 66%;
   margin: 0 20px;
   padding-block-start: 80px;
+  padding-block-end: 130px;
+  margin-bottom: -50px;
 }
 
 .third__informations {
@@ -202,12 +204,8 @@
   font-weight: 400;
 }
 
-.topic_image {
-  margin-top: 80px;
-}
-
 .topic_image-title {
-  margin: 80px 20px 20px 20px;
+  margin: 0px 20px 20px 20px;
 }
 
 .topic_image-container {
