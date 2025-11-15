@@ -203,10 +203,6 @@
   font-weight: 400;
 }
 
-.topic_image {
-  padding-block-end: 60px;
-}
-
 .topic_image-title {
   margin: 0px 20px 20px 20px;
 }
@@ -258,6 +254,7 @@
   display: grid;
   justify-items: center;
   align-items: center;
+  margin-top: 60px;
   min-block-size: 100vh;
 }
 
