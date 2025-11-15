@@ -15,16 +15,16 @@
     <link rel="icon" href="./images/favicon.ico" />
     <script src="./scripts/script.js"></script>
   </head>
+
   <body class="page">
     <header class="header decorated-zone trangl">
-      <span class="header-rec" aria-hidden="true">rec</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
-              День
+              день
             </button>
           </li>
           <li class="header__theme-menu-item">
@@ -32,31 +32,29 @@
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
             >
-              Авто
+              авто
             </button>
           </li>
           <li class="header__theme-menu-item">
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
-              Неон
+              неон
             </button>
           </li>
         </ul>
       </nav>
-      <h1 class="header-logo">no focus</h1>
-      <div class="header-text">
-        <p class="text-paragraph title-decor">
-          Что делать, когда не можешь делать ничего
-          <br />Или почему нам так сложно сконцентрироваться, особенно когда
-          очень надо
-        </p>
-      </div>
+      <section aria-hidden="true" class="header-rec">rec</section>
+      <h1 class="header__title" aria-hidden="true">no focus</h1>
+      <p class="header-description title-decor">
+        Что делать, когда не можешь делать ничего <br />Или почему нам так
+        сложно сконцентрироваться, особенно когда очень надо
+      </p>
     </header>
     <main>
       <section class="first__topic">
         <h2 class="topic-title">Почему сосредоточиться так сложно</h2>
-        <article class="first__informations">
+        <article class="first__topic-discription">
           <h3 class="title-decor">Многозадачность</h3>
           <p class="topic-description">
             Особенно сложно сосредоточиться, когда задач много и все они —
@@ -64,7 +62,7 @@
             (и всем нанимающим менеджерам этого мира)? А дело в том, что её
             просто не существует. Исследователи
             <a
-              class="topic__link"
+              class="topic_link"
               href="https://i.pinimg.com/736x/11/e5/8d/11e58d693fe03817e8aaae65da115942.jpg"
               >выяснили,</a
             >
@@ -90,9 +88,9 @@
         <h2 class="topic-title topic-title-second">
           Что снижает концентрацию внимания?
         </h2>
-        <div class="second__informations">
-          <article>
-            <h3 class="title-decor title-decor-two">Стресс</h3>
+        <div class="contain__question">
+          <article class="second__topic-ans">
+            <h3 class="title-decor title-decor-two">Многозадачность</h3>
             <p class="topic-description">
               Как концентрация может снижаться из-за… концентрации? Любая
               стрессовая ситуация (и резко меняющийся мир в целом) заставляет
@@ -132,7 +130,7 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <article class="third__informations">
+        <article class="third__topic-ans">
           <h3 class="title-decor">
             5 простых (на самом деле не очень) советов
           </h3>
@@ -163,7 +161,7 @@
             <p class="topic-description">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
               <a
-                class="topic__link"
+                class="topic_link"
                 href="https://avatars.mds.yandex.net/i?id=3d89819b9a5a581fecdeb58eaa8afbaa_l-5885436-images-thumbs&n=13"
                 >показал</a
               >, что созерцание природы повышает концентрацию, в то время как
@@ -193,44 +191,45 @@
           </div>
         </article>
       </section>
-      <section class="topic_image">
-        <h2 class="title-decor topic_image-title">А можно в картинках?</h2>
-        <div class="topic_image-container">
+      <section class="image_section">
+        <h2 class="title-decor image_section-title">А можно в картинках?</h2>
+        <div class="image_section-cont">
           <img
-            class="topic_image-item"
+            class="image_section-item"
             src="./images/sunset.png"
+            alt="горы"
             loading="lazy"
-            alt="Горы"
           />
           <img
-            class="topic_image-item"
+            class="image_section-item"
             src="./images/ice-cream.png"
+            alt="мороженое"
             loading="lazy"
-            alt="Мороженое"
           />
           <img
-            class="topic_image-item"
+            class="image_section-item"
             src="./images/tape.png"
+            alt="кассета"
             loading="lazy"
-            alt="Кассета"
           />
           <img
-            class="topic_image-item"
+            class="image_section-item"
             src="./images/books.png"
+            alt="книги"
             loading="lazy"
-            alt="Книги"
           />
           <img
-            class="topic_image-item"
+            class="image_section-item"
             src="./images/street.png"
+            alt="улица"
             loading="lazy"
-            alt="Улица"
           />
         </div>
       </section>
     </main>
     <footer class="footer trangl">
-      <h2 class="footer__logo">focus</h2>
+      <h2 class="footer__title">focus</h2>
     </footer>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
