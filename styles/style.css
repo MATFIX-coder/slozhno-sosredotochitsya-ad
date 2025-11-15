@@ -190,9 +190,9 @@
   display: grid;
   grid-template-columns: 34% 66%;
   margin: 0 20px;
+  margin-bottom: -50px;
   padding-block-start: 80px;
   padding-block-end: 130px;
-  margin-bottom: -50px;
 }
 
 .third__informations {
@@ -203,6 +203,10 @@
 
 .third__font {
   font-weight: 400;
+}
+
+.topic_image {
+  padding-block-end: 60px;
 }
 
 .topic_image-title {
