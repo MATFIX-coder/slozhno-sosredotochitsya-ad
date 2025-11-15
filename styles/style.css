@@ -258,7 +258,6 @@
   display: grid;
   justify-items: center;
   align-items: center;
-  margin-top: 60px;
   min-block-size: 100vh;
 }
 
