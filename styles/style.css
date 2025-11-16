@@ -155,7 +155,7 @@
   padding-block-start: 60px;
 }
 
-.first__topic-discription {
+.first__topic-description {
   display: flex;
   flex-direction: column;
   gap: 13px;
@@ -186,7 +186,7 @@
   padding-block-end: 130px;
 }
 
-.third__topic-ans {
+.third__topic-description {
   display: grid;
   gap: 30px;
 }
@@ -262,7 +262,7 @@
   text-shadow: 2px 2px 0 var(--currently-color);
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .header__theme-menu {
     display: flex;
     justify-content: flex-end;
@@ -314,7 +314,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (width <= 375px) {
   .header {
     padding: 10px;
   }
